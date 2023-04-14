@@ -25,7 +25,6 @@
 
 |  | Spark | pandas |  |
 | --- | --- | --- | --- |
-| groupby | grouped_df = df.groupBy("지역", "성별")
- | group_df = df.groupby(["지역", "성별"]).mean().reset_index() | 그룹화 |
+| groupby | grouped_df = df.groupBy("지역", "성별")  | group_df = df.groupby(["지역", "성별"]).mean().reset_index() | 그룹화 |
 | agg | agg_df = grouped_df.agg(avg("월급").alias("평균월급")) | result = group_df.agg({"월급": ["mean", "sum", "min", "max"]}) | 집계 함수 |
 | sum | sum_value = df.agg(spark_sum("Value")).collect()[0][0] | sum_value = df["Value"].sum() |  |
