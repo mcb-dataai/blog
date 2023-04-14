@@ -23,7 +23,7 @@ cat ~/.gitconfig
 
 4. 깃허브 주소 클론 (URL)
 ```bash
-git clone git clone https://github.com/mcb-dataai/blog
+git clone https://github.com/mcb-dataai/blog
 ```
 
 5. 해당 저장소로 이동 및 원격저장소 Push&Pull 주소 확인
@@ -39,4 +39,11 @@ git branch [등록할 브랜치명]
 --브랜치 변경(CheckOut)
 git checkout [변경 브랜치명]
 ```
-test vscode
+7. 내 로컬 브랜치 원격으로 등록
+```bash
+--push to remote
+git push origin [My Branch]
+--branch 연동
+git branch --set-upstream-to origin/[My Branch]
+```
+
