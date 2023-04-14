@@ -17,3 +17,6 @@
   * [Sky](dev_notes/Sky/dev_note.md)
     * [sky_study](dev_notes/Sky/Spark_Study.md)
     * [sky_20230407](dev_notes/Sky/test/sky_20230407.md)
+  * [Max](dev_notes/Max/readme.md)
+    * [Max_study1](dev_notes/Max/readme.md)
+    * [Max_test2](dev_notes/Max/test.md)
