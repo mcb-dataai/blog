@@ -56,9 +56,18 @@ git push origin :[old_branch] [new_branch]
 ## GIT의 구조
 
 ### 1. git은 Local과 Remote로 나뉜다.
-```html
-<img src="https://github.com/mcb-dataai/blog/blob/dev_notes/franz/dev_notes/Franz/.image/git_local_remote.jpg", height="100px", width="100px">
+
+![git_local_remote]("https://github.com/mcb-dataai/blog/blob/dev_notes/franz/dev_notes/Franz/.image/git_local_remote.jpg") 
+
+### TIPS
+git 아이디 충돌시 윈도우 자격증명 관리자를 통해 삭제 가능
+
+Git Add&Commit
+```bash
+git commit -am 'Commit Msg'
 ```
 
-###TIPS
-git 아이디 충돌시 윈도우 자격증명 관리자를 통해 삭제 가능
+git add commit push 한번에 명령어 등록하기
+```bash
+git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git push; }; f'
+```
