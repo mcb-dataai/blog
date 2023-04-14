@@ -1,11 +1,6 @@
-# Franz 님의 데브노트
+#Franz's Dev_note
 
-### TODO
- - "How to markdown"
-<<<<<<< HEAD
-=======
-
- ### HOW TO Git Bash 101
+ ## HOW TO Git Bash 101
 
  1. git bash 설치
 
@@ -58,12 +53,10 @@ git push origin :[old_branch] [new_branch]
 ```
 9. merge 요청
 
-### GIT의 구조
-1. git은 Local과 Remote로 나뉜다.
-<img align="left" src="./dev_notes/Franz/.image/git_local_remote.jpg", height="100px", width="100px">
+## GIT의 구조
+###1. git은 Local과 Remote로 나뉜다.
+<img src="https://github.com/mcb-dataai/blog/blob/dev_notes/franz/dev_notes/Franz/.image/git_local_remote.jpg", height="100px", width="100px">
 
 
 ###TIPS
-*git 아이디 충돌시 윈도우 자격증명 관리자를 통해 삭제 가능
-
->>>>>>> 16fe1fadb8677bb2c06a76b904cdf624dff789d2
+git 아이디 충돌시 윈도우 자격증명 관리자를 통해 삭제 가능
