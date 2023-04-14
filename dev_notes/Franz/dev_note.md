@@ -39,3 +39,4 @@ git branch [등록할 브랜치명]
 --브랜치 변경(CheckOut)
 git checkout [변경 브랜치명]
 ```
+test vscode
