@@ -20,3 +20,4 @@
   * [Max](dev_notes/Max/readme.md)
     * [Max_study1](dev_notes/Max/readme.md)
     * [Max_test2](dev_notes/Max/test.md)
+    * [Max_test3](dev_notes/Max/test2.md)
