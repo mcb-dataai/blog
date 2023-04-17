@@ -1,3 +1,3 @@
-test
-file2
-change data
+test\n
+file2\n
+change data\n
