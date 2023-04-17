@@ -1,5 +1,0 @@
-# hello
-```python
-print("cmp")
-
-```
