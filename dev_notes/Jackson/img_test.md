@@ -1,3 +1,3 @@
-![me_img](https://github.com/mcb-dataai/blog/tree/dev_notes/jackson/dev_notes/Jackson/img/me.jpg)
+![me_img](https://github.com/mcb-dataai/blog/main/dev_notes/Jackson/img/me.jpg)
 
 
