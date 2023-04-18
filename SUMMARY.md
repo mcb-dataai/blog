@@ -12,6 +12,7 @@
 ## Dev_notes
 * [dev_notes](dev_notes/README.md)
   * [Arthur](dev_notes/Arthur/dev_note.md)
+    * [About ML Engineering And MLOps](https://github.com/mcb-dataai/blog/blob/main/dev_notes/Arthur/ML%20Engineering%20and%20MLOps.md)
   * [Franz](dev_notes/Franz/dev_note.md)
   * [Sheon](dev_notes/Sheon/dev_note.md)
   * [Sky](dev_notes/Sky/dev_note.md)
