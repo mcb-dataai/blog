@@ -35,7 +35,7 @@ $ git add -A
 
 반드시 -m "~~" 을 통해 커밋 메세지를 작성한다.
 ```bash
-$ git commit 
+$ git commit -m "커밋 메세지"
 ```
 
 
@@ -57,14 +57,17 @@ $ git pull
 ```
 
 ## .gitconfig에서 사용자 계정 맟 alias 설정등을 조절하는 방법
-- python의 사용자 정의 함수 처럼 명령어를 설정하는 방법
+python의 사용자 정의 함수 처럼 명령어를 설정하는 방법
+
 vim으로 편집기에 들어간다.
 ```bash
 $ vim ~/.gitconfig
 ```
 원하는 명령어 이름과 동작을 작성한다.
-```$ st = status```
-이방법으로 아래의 코드를 통해 add, commit, push를 한번에 하는 명령어를 작성 할 수 있다.\
+```bash
+$ st = status
+```
+이방법으로 아래의 코드를 통해 add, commit, push를 한번에 하는 명령어를 작성 할 수 있다.
 ```bash
 $ cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 ```
