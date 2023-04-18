@@ -56,7 +56,11 @@ $ git push
 $ git pull
 ```
 
+<<<<<<< HEAD
 ## .gitconfig에서 사용자 계정 및 alias 설정등을 조절하는 방법
+=======
+## .gitconfig에서 사용자 계정  alias 설정등을 조절하는 방법
+>>>>>>> 9a03796c9f3a6aaeb0fe9620facc4e6fec1af9dc
 - python의 사용자 정의 함수 처럼 명령어를 설정하는 방법
 
 vim으로 편집기에 들어간다.
@@ -74,4 +78,4 @@ $ cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 주의사항 : cmp를 실행 시키기 위해 git cmp를작성하고 뒤에 "커밋 메세지"를 작성해야한다.
 
 ## 작업한 명령어 저장하기
-vim을 통해 작업한 내용을 저장하기 위해서는 esc를 누른후 ```:wq!``` 를 입력해 저장한다.
+vim을 통해 작업한 내용을 저장하기 위해서는 esc를 누른후 ```:wq!``` 를 입력해 저장한다. 
