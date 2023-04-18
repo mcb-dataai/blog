@@ -56,7 +56,7 @@ $ git push
 $ git pull
 ```
 
-## .gitconfig에서 사용자 계정 맟 alias 설정등을 조절하는 방법
+## .gitconfig에서 사용자 계정  alias 설정등을 조절하는 방법
 - python의 사용자 정의 함수 처럼 명령어를 설정하는 방법
 
 vim으로 편집기에 들어간다.
