@@ -3,7 +3,7 @@
 ```
 ![사진명](경로 || url)
 ```
-![me](https://github.com/mcb-dataai/blog/blob/dev_notes/jackson/dev_notes/Jackson/img/me.jpg)
+![me](https://github.com/mcb-dataai/blog/blob/dev_notes/jackson/dev_notes/Jackson/img/mcb_logo.jpg)
 주의 : 경로나 주소에 사진이 있어야한다.
 
 
@@ -74,4 +74,4 @@ $ cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 주의사항 : cmp를 실행 시키기 위해 git cmp를작성하고 뒤에 "커밋 메세지"를 작성해야한다.
 
 ## 작업한 명령어 저장하기
-vim을 통해 작업한 내용을 저장하기 위해서는 esc를 누른후 :wq! 를 입력해 저장한다.
+vim을 통해 작업한 내용을 저장하기 위해서는 esc를 누른후 ```:wq!``` 를 입력해 저장한다.
