@@ -12,44 +12,58 @@
 ### git add
 작업 디렉토리 상의 변경 내용을 스테이징 영역에 추가하기 위해서 사용하는 명령어
 - 사용법\
-작업 디렉토리의 변경내용 일부만 스테이징 영역에 넘기는 방법\
+작업 디렉토리의 변경내용 일부만 스테이징 영역에 넘기는 방법
 ```bash
 $ git add 파일 || 디렉토리 경로
 ``` 
 
 현재 디렉토리의 모든 변경 내용을 스테이징 영역으로 넘기는 방법, '.'을 인자로 사용한다.
-```$ git add . ```
+```bash
+$ git add . 
+```
 
 작업 디렉토리내의 모든 변경 내용을 스테이징 영역으로 넘기는 방법 -A 옵션을 사용한다.
-```$ git add -A ```
+```bash
+$ git add -A 
+```
 
 
 ### git commit
 파일 및 폴더의 추가/변경 사항을 저장소에 기록하기 위한 명령어
-- 사용법
+- 사용법\
 반드시 -m "~~" 을 통해 커밋 메세지를 작성한다.
-```$ git commit ```
+```bash
+$ git commit 
+```
 
 
 ### git push
 로컬 브랜치(local branch)를 원격 저장소(remote repository)로 푸시할 때 사용하는 기본 명령어
 - 사용법
-```$ git push ```
+```bash
+$ git push 
+```
 
 
 ### git pull
 원격에서 수정한 파일을 로컬에 업데이트하는 명령어
 -사용법
-```$ git pull```
+```bash
+$ git pull
+```
 
 ## .gitconfig에서 사용자 계정 맟 alias 설정등을 조절하는 방법
 - python의 사용자 정의 함수 처럼 명령어를 설정하는 방법
 vim으로 편집기에 들어간다.
-```$ vim ~/.gitconfig```
+```bash
+$ vim ~/.gitconfig
+```
 원하는 명령어 이름과 동작을 작성한다.
 ```$ st = status```
-이방법으로 아래의 코드를 통해 add, commit, push를 한번에 하는 명령어를 작성 할 수 있다.
-```$ cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"```
+이방법으로 아래의 코드를 통해 add, commit, push를 한번에 하는 명령어를 작성 할 수 있다.\
+```bash
+$ cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
+```
 주의사항 : cmp를 실행 시키기 위해 git cmp를작성하고 뒤에 "커밋 메세지"를 작성해야한다.
 
 ## 작업한 명령어 저장하기
