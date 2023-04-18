@@ -3,7 +3,7 @@
 ```
 ![사진명](경로 || url)
 ```
-![me](https://github.com/mcb-dataai/blog/blob/dev_notes/jackson/dev_notes/Jackson/img/mcb_logo.jpg)
+![me](https://github.com/mcb-dataai/blog/blob/dev_notes/jackson/dev_notes/Jackson/img/mcb_logo.jpg)\
 주의 : 경로나 주소에 사진이 있어야한다.
 
 
