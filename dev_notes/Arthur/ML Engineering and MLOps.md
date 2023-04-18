@@ -1,7 +1,17 @@
+![mleng](https://github.com/mcb-dataai/blog/blob/dev_notes/arhur/dev_notes/Arthur/img/ml-engineering.jpg)
+### Machine Learning Engineering
+머신러닝은, 정말 극단적으로 축약해서 포현하자면 "학습하고, 예측하는" 것입니다. 하지만 실제 머신러닝을 어딘가에 적용하기 위해서는, 다음과 같은 문제들이 나타납니다.
+
+a. 학습 데이터는 어디서 오는가?
+
+b. 예측은 잘 수행되고 있는가?
+
+c. 예측 Output은 어디로 가는가?
+
+간단하게 표현하자면 a는 데이터, b는 모델, c는 서비스(혹은 코드)에 대한 문제입니다. kaggle에 제출하거나, 아니면 단순 취미로써 머신러닝을 돌리는 게 아니라면 위 문제들에 대해서는 반드시 생각하여야 합니다.
 
 
-![dev](https://github.com/mcb-dataai/blog/blob/dev_notes/arhur/dev_notes/Arthur/ml-lifecycle-model-development.png)
-
+![mlops](https://github.com/mcb-dataai/blog/blob/dev_notes/arhur/dev_notes/Arthur/img/ml-lifecycle-model-development.png)
 ### MLOps란?
  개발자라면 아마 DevOps라는 개념, 혹은 직군에 대한 이야기를 들어보신 적이 있을 겁니다. DevOps란, 일반적인 정의에 의하면, "개발과 운영의 통합"이라고 볼 수 있을 것 같습니다.
  여기서 개발이란 "시스템을 만드는 사람들", 즉 우리같은 사람들을 뜻하며, 운영이랑 "시스템을 유지하는 사람들"을 뜻합니다. (게임 개발자와 GM을 생각하시면 직관적으로 이해할 수 있습니다.) 이 두 부서는 오랜 기간 동안 분리되어 있었으며, 따라서 운영 중 생기는 장애, 혹은 개선사항에 대해서는 많은 문서와, 많은 시간이 투입되어야 실제 서비스에 반영이 되었습니다. 그러나 JIRA, Jenkins 등의 Devops 툴의 등장으로 개발과 운영을 한 사이클 내에서 관리할 수 있게 되었습니다. 
