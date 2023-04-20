@@ -24,11 +24,6 @@
 * [databricks](databricks/README.md)
 
 
-
-
-
-
-
 ## Power_bi
 
 * [power_bi](power_bi/README.md)

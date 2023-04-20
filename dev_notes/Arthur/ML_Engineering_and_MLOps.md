@@ -1,4 +1,4 @@
-![mleng](https://github.com/mcb-dataai/blog/blob/dev_notes/arhur/dev_notes/Arthur/img/ml-engineering.jpg)
+![mleng](img/ml-engineering.jpg)
 
 ### Machine Learning Engineering
 머신러닝은, 정말 극단적으로 축약해서 포현하자면 "학습하고, 예측하는" 것입니다. 하지만 실제 머신러닝을 어딘가에 적용하기 위해서는, 다음과 같은 문제들이 나타납니다.
@@ -27,7 +27,7 @@ c. 예측 Output은 어디로, 어떻게 가는가?
 
  
 
-![devops](https://github.com/mcb-dataai/blog/blob/dev_notes/arhur/dev_notes/Arthur/img/DevOps-lifecycle-capabilities-1024x621.png)
+![devops](img/DevOps-lifecycle-capabilities-1024x621.png)
 
 ### MLOps란?
  개발자라면 아마 DevOps라는 개념, 혹은 직군에 대한 이야기를 들어보신 적이 있을 겁니다. DevOps란, 일반적인 정의에 의하면, "개발과 운영의 통합"이라고 볼 수 있을 것 같습니다.
@@ -35,7 +35,7 @@ c. 예측 Output은 어디로, 어떻게 가는가?
  
  DevOps의 장점은 매우 명확합니다. 개발과 운영 사이에 간극이 좁아짐에 따라 서비스의 오류 및 수정 사항이 빠르게 반영되며, 이상의 과정이 (DevOps를 설명하는 그림에서 흔히 볼 수 있듯) 하나의 순환주기를 이루게 됨으로써, 서비스는 지속적으로 개선될 수 있습니다. 듣기에 따라서는 당연한 이야기일지 모르겠으나, DevOps는 기존의 Waterfall 개발만 해왔던 조직에 비해 굉장한 이점을 제공합니다!
  
-![mlops](https://github.com/mcb-dataai/blog/blob/dev_notes/arhur/dev_notes/Arthur/img/ml-lifecycle-mlops-eternal-knot.png)
+![mlops](img/ml-lifecycle-mlops-eternal-knot.png)
 
 머신러닝 서비스를 제공하는 기업에게도 DevOps를 적용할 수 있습니다. 다만 일반적인 DevOps환경보다는 신경써야 할 것이 더 많습니다. 
 
