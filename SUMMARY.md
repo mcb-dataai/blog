@@ -1,4 +1,4 @@
-# Table of contents
+# Table of contents.
 
 ## Home(대문페이지)
 * [blog](README.md)
