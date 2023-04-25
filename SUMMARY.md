@@ -39,4 +39,5 @@
   * [Max](dev_notes/Max/readme.md)
     * [Max_study1](dev_notes/Max/readme.md)
     * [Max_test2](dev_notes/Max/test.md)
-
+  * [Chovy](dev_notes/Chovy/readme.md)
+    * [Chovy](dev_notes/Chovy/Spark_hadoop_Env_Configue.md)
